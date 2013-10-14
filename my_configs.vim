@@ -6,9 +6,6 @@ set tags+=~/projekt_osnowa/ctags
 
 
 
-""""""""""""""""""""""""""""""
-" => GRATKA section
-"""""""""""""""""""""""""""""""
 au FileType html,vim,tpl,smarty,css setl tabstop=2 shiftwidth=2 softtabstop=2
 au FileType html,tpl,smarty setl omnifunc=htmlcomplete#CompleteTags
 "au FileType php,javascript setl tabstop=4 ai cindent si shiftwidth=4
