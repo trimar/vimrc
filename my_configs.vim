@@ -1,10 +1,4 @@
-set tags+=~/projekt_naszemiasto/tags3
-set tags+=~/projekt_uslugi/ctags
-set tags+=~/projekt_zrodla_danych/ctags
-set tags+=~/projekt_moduly/ctags
-set tags+=~/projekt_osnowa/ctags
-
-
+set tags+=~/tags
 
 au FileType html,vim,tpl,smarty,css setl tabstop=2 shiftwidth=2 softtabstop=2
 au FileType html,tpl,smarty setl omnifunc=htmlcomplete#CompleteTags
@@ -32,7 +26,7 @@ set number
 nmap <leader>tt :TagbarToggle<cr>
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
-colorscheme peachpuff
+"colorscheme peachpuff
 
 nnoremap <leader>b :Breakpoint<cr>
 
